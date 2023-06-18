@@ -1,5 +1,17 @@
 # Changelog
 
+## [2023.1.0](https://github.com/Ramkrish26/release-please/compare/v1.1.0...v2023.1.0) (2023-06-18)
+
+
+### Features
+
+* manual versioning ([1bbb122](https://github.com/Ramkrish26/release-please/commit/1bbb122886535380585aabdbb392f0af1f746bd9))
+
+
+### Bug Fixes
+
+* version number ([21cc825](https://github.com/Ramkrish26/release-please/commit/21cc825b9a6facb4ebefe41f13c82837f7aec01f))
+
 ## [1.1.0](https://github.com/Ramkrish26/release-please/compare/v1.0.0...v1.1.0) (2023-06-18)
 
 
