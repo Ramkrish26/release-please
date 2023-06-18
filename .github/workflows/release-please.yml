@@ -2,9 +2,6 @@ on:
   push:
     branches:
       - master
-  secrets:
-    CI_GITHUB_TOKEN:
-      required: true
 
 permissions:
   contents: write
