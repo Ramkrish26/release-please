@@ -1,7 +1,5 @@
 on:
-  push:
-    branches:
-      - master
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,3 +16,6 @@ jobs:
           release-type: node
           package-name: release-please-action
           component: homepage
+          release-as: "2023.1.0"
+          pull-request-header: "Created by Ramakrishnan"
+          default-branch: "master"
