@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/Ramkrish26/release-please/compare/v1.0.0...v1.1.0) (2023-06-18)
+
+
+### Features
+
+* new feature ([c279fa6](https://github.com/Ramkrish26/release-please/commit/c279fa6b8370660bf1321e0cee7ba2966b2006a3))
+
 ## 1.0.0 (2023-06-18)
 
 
