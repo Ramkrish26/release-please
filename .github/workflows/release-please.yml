@@ -12,6 +12,7 @@ jobs:
         id: release
         uses: google-github-actions/release-please-action@v3
         with:
+          release-type: node
           command: manifest
           pull-request-header: "Homepage Release Request"
           default-branch: "master"
