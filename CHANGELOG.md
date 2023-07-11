@@ -1,5 +1,12 @@
 # Changelog
 
+## [2023.1.0](https://github.com/Ramkrish26/release-please/compare/v2023.1.0...v2023.1.0) (2023-07-10)
+
+
+### Bug Fixes
+
+* release-please config update ([#8](https://github.com/Ramkrish26/release-please/issues/8)) ([ec41997](https://github.com/Ramkrish26/release-please/commit/ec41997ef1bac2e23785028aa6de01908acab8d8))
+
 ## [2023.1.0](https://github.com/Ramkrish26/release-please/compare/v1.1.0...v2023.1.0) (2023-06-18)
 
 
