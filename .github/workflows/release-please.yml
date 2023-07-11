@@ -1,21 +1,17 @@
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
-permissions:
-  contents: write
-  pull-requests: write
-
-name: release-please
-
+name: Release Please
 jobs:
-  release-please:
+  release:
     runs-on: ubuntu-latest
     steps:
-      - uses: google-github-actions/release-please-action@v3
+      - name: release
+        id: release
+        uses: google-github-actions/release-please-action@v3
         with:
-          release-type: node
-          package-name: release-please-action
-          component: homepage
-          release-as: "2023.1.0"
-          pull-request-header: "Created by Ramakrishnan"
+          command: manifest
+          pull-request-header: "Homepage Release Request"
           default-branch: "master"
