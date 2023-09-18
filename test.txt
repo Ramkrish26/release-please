@@ -1,3 +1,3 @@
 
-This is to check the release-please and change log
+This is to check the release-please and change log.
 
