@@ -1,8 +1,18 @@
 on:
   workflow_dispatch:
+    inputs:
+      target-branch:
+        description: "Target Branch"
+        required: true
+        default: "master"
+        # Define options for the target branch dropdown
+        options:
+          - master
+          - release-please-update
   push:
     branches:
       - master
+      - release-please-update
 
 name: Release Please
 
