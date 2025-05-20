@@ -5,15 +5,20 @@ on:
       - master
 
 name: Release Please
+
+permissions:
+  contents: read
+  pull-requests: write
+
 jobs:
   release:
     runs-on: ubuntu-latest
     steps:
       - name: release
         id: release
-        uses: google-github-actions/release-please-action@v3
+        uses: googleapis/release-please-action@v4
         with:
-          release-type: node
           command: manifest
-          pull-request-header: "Homepage Release Request"
+          pull-request-header: "release-please release request"
           default-branch: "master"
+          target-branch: "master"
